@@ -18,8 +18,8 @@ type Routes []Route
 
 func AllRoutes() Routes {
 	routes := Routes{
-		Route{"Index", "GET", "/", Index},
-		Route{"LocalPortScan", "GET", "/Scan", ScanLocalHost},
+		Route{"HealthCheck", "GET", "/healthcheck", HealthCheck},
+		Route{"LocalPortScan", "GET", "/scan", ScanLocalHost},
 		Route{"Test", "GET", "/test", TestJson},
 
 	}

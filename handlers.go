@@ -8,8 +8,9 @@ import (
 	"time"
 )
 
-func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
-	fmt.Fprint(w, "Welcome!\n")
+func HealthCheck(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+	response := fmt.Sprintf("{Status: \"UP\"}")
+	writeOKResponse(w, response)
 }
 
 func ScanLocalHost(w http.ResponseWriter, r *http.Request, _ httprouter.Params){
