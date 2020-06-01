@@ -1,0 +1,4 @@
+github.com/anvie/port-scanner v0.0.0-20180225151059-8159197d3770 h1:1KEvfMGAjISVzk3Ti6pfaOgtoC3naoU0LfiJooZDNO8=
+github.com/anvie/port-scanner v0.0.0-20180225151059-8159197d3770/go.mod h1:QGzdstKeoHmMWwi9oNHZ7DQzEj9pi7H42171pkj9htk=
+github.com/julienschmidt/httprouter v1.3.0 h1:U0609e9tgbseu3rBINet9P48AI/D3oJs4dN7jwJOQ1U=
+github.com/julienschmidt/httprouter v1.3.0/go.mod h1:JR6WtHb+2LUe8TCKY3cZOxFyyO8IZAc4RVcycCCAKdM=
