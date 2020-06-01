@@ -1,4 +1,4 @@
-module github.com/O-Luhishi/Go-Restful-API-PortScanner
+module github.com/O-Luhishi/Radar
 
 go 1.14
 
